@@ -326,7 +326,6 @@ ul {
   flex-shrink: 0;
 }
 
-.title-buttons span,
 .window-btn {
   width: 18px;
   height: 18px;
@@ -345,6 +344,34 @@ ul {
 
 .window-btn {
   cursor: pointer;
+}
+
+.window-btn:hover {
+  background: #ece7db;
+}
+
+.window-btn:active {
+  border-color: #2b2b2b var(--line-light) var(--line-light) #2b2b2b;
+}
+
+.window-btn--close:hover {
+  background: #cf4b4b;
+  color: #fff;
+}
+
+.window--minimized .window-body,
+.window--minimized .winamp-body {
+  display: none;
+}
+
+.window--closed {
+  display: none !important;
+}
+
+.window--maximized {
+  grid-column: 1 / -1;
+  z-index: 12;
+  box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.28);
 }
 
 .window-body {
@@ -708,15 +735,25 @@ ul {
   line-height: 0.95;
 }
 
-.pet-window {
-  padding: 8px 10px;
-  border: 2px solid;
-  border-color: var(--line-light) var(--line-dark) var(--line-dark) var(--line-light);
+.pet-shell {
+  width: 196px;
   background: #d4d0c8;
-  box-shadow: 2px 2px 0 #000;
+  box-shadow: 3px 3px 0 #000;
+}
+
+.pet-body {
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+  text-align: center;
+}
+
+.pet-glyph {
+  margin: 0;
+  color: #111;
   font-family: "VT323", monospace;
-  font-size: 19px;
-  letter-spacing: 0.08em;
+  font-size: 26px;
+  line-height: 0.9;
 }
 
 .winamp {
@@ -741,6 +778,16 @@ ul {
   background: linear-gradient(90deg, #1a1a6e 0%, #4040a0 100%);
   font-size: 17px;
   letter-spacing: 0.08em;
+}
+
+.winamp-title {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.winamp-body {
+  background: #1a1a1a;
 }
 
 .winamp-line,
@@ -769,17 +816,40 @@ ul {
 .winamp-controls {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
   padding: 6px 8px;
   background: #232323;
   font-size: 18px;
 }
 
-.winamp-bars {
-  flex: 1;
-  height: 6px;
-  border: 1px solid #444;
-  background: linear-gradient(90deg, #00ff00 0%, #00ff00 72%, #444 72%, #444 100%);
+.winamp-btn {
+  min-width: 42px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-color: #9a9a9a #0a0a0a #0a0a0a #9a9a9a;
+  background: #d4d0c8;
+  color: #111;
+  font-family: "VT323", monospace;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.winamp-btn:hover {
+  background: #ece7db;
+}
+
+.winamp-btn:active {
+  border-color: #0a0a0a #9a9a9a #9a9a9a #0a0a0a;
+}
+
+.winamp-volume {
+  width: 76px;
+  accent-color: #00ff00;
 }
 
 .taskbar {
