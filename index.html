@@ -518,12 +518,12 @@
     </section>
 
     <div class="companion">
-      <div class="companion-bubble" id="pet-message">Double-click the chrome. I work here now.</div>
+      <div class="companion-bubble" id="pet-message">Maggie online. I shed fur, sparkles, and bad opinions.</div>
       <section class="window pet-shell" id="pet-window">
         <div class="title-bar">
           <div class="title-copy">
-            <div class="title-main">pet.exe</div>
-            <div class="title-sub">resident desktop assistant</div>
+            <div class="title-main">Maggie.exe</div>
+            <div class="title-sub">pixel labrador chaos assistant</div>
           </div>
           <div class="title-buttons">
             <button class="window-btn" type="button" data-window-action="minimize" aria-label="Minimize window">_</button>
@@ -543,22 +543,52 @@
               <span>*</span>
               <span>+</span>
             </div>
-            <button class="pet-face" id="pet-face" type="button" aria-label="Interact with pet">
-              <pre class="pet-glyph" id="pet-glyph" aria-hidden="true"> /\_/\\
-( o.o )
- > ^ <</pre>
+            <div class="pet-ball" aria-hidden="true"></div>
+            <button class="pet-face" id="pet-face" type="button" aria-label="Interact with Maggie" data-face="idle">
+              <svg class="pet-glyph pet-sprite" id="pet-glyph" viewBox="0 0 128 104" aria-hidden="true">
+                <g class="sprite-root">
+                  <ellipse class="sprite-shadow" cx="65" cy="95" rx="37" ry="4.5"></ellipse>
+                  <path class="sprite-tail" d="M37 66 C22 60, 18 80, 41 79"></path>
+                  <path class="sprite-body" d="M46 58 C50 46, 60 41, 73 42 C86 43, 97 49, 102 59 C107 69, 105 82, 97 90 C90 97, 77 99, 64 96 C53 93, 45 84, 42 73 C41 68, 42 62, 46 58 Z"></path>
+                  <path class="sprite-neck" d="M58 49 C59 38, 66 30, 77 28 C81 36, 80 46, 74 54 C69 58, 62 57, 58 49 Z"></path>
+                  <path class="sprite-chest" d="M57 49 C64 51, 68 59, 67 71 C66 83, 62 92, 56 94 C49 91, 46 81, 46 70 C46 59, 50 51, 57 49 Z"></path>
+                  <path class="sprite-leg sprite-leg--left" d="M47 67 C51 65, 55 65, 58 68 L57 93 L47 93 Z"></path>
+                  <path class="sprite-leg sprite-leg--right" d="M67 69 C73 69, 80 72, 86 78 L89 93 L77 93 Z"></path>
+                  <rect class="sprite-paw sprite-paw--left" x="45" y="91" width="14" height="4" rx="2"></rect>
+                  <rect class="sprite-paw sprite-paw--right" x="77" y="91" width="14" height="4" rx="2"></rect>
+                  <path class="sprite-collar" d="M60 41 C67 40, 76 41, 83 44 L82 49 C74 48, 66 48, 59 46 Z"></path>
+                  <circle class="sprite-tag" cx="71" cy="49" r="2.6"></circle>
+                  <g class="sprite-head-group">
+                    <path class="sprite-ear sprite-ear--left" d="M67 20 C60 21, 59 40, 66 47 C70 42, 70 30, 67 20 Z"></path>
+                    <path class="sprite-ear sprite-ear--right" d="M83 21 C92 25, 94 38, 88 47 C80 43, 78 29, 83 21 Z"></path>
+                    <path class="sprite-head" d="M64 18 C73 13, 84 14, 91 21 C96 26, 98 35, 95 43 C91 52, 82 57, 72 57 C63 57, 56 51, 54 43 C52 34, 56 24, 64 18 Z"></path>
+                    <path class="sprite-brow" d="M69 24 C74 22, 80 22, 85 24"></path>
+                    <path class="sprite-muzzle" d="M78 33 C90 31, 102 34, 109 40 C107 47, 99 52, 88 52 C79 50, 75 42, 78 33 Z"></path>
+                    <ellipse class="sprite-nose" cx="106" cy="40.8" rx="4" ry="3.2"></ellipse>
+                    <ellipse class="sprite-eye sprite-eye--left" cx="75.4" cy="29.5" rx="3.1" ry="3.8"></ellipse>
+                    <ellipse class="sprite-eye sprite-eye--right" cx="82.8" cy="30.2" rx="1.7" ry="2.3"></ellipse>
+                    <circle class="sprite-eye-shine sprite-eye-shine--left" cx="76.3" cy="28.3" r="0.75"></circle>
+                    <circle class="sprite-eye-shine sprite-eye-shine--right" cx="83.2" cy="29.6" r="0.5"></circle>
+                    <path class="sprite-mouth" d="M88 47 C93 49, 99 49, 104 46"></path>
+                    <path class="sprite-mouth-open" d="M88 46 C93 51, 99 51, 103 47 C101 53, 94 54, 88 46 Z"></path>
+                    <path class="sprite-tongue" d="M93 50 C95 52, 96 53, 96 54 C94.5 54.3, 93.6 53.6, 92.7 51.8 Z"></path>
+                    <path class="sprite-smile" d="M87 46 C92 53, 99 52, 104 47"></path>
+                  </g>
+                </g>
+              </svg>
             </button>
           </div>
-          <div class="pet-trick" id="pet-trick">stage // top hat armed</div>
-          <p>Click the face. Make it dance. Ask for a trick. It gets worse from there.</p>
+          <div class="pet-trick" id="pet-trick">maggie // tennis ball armed</div>
+          <p>Click Maggie for chaos. She does zoomies, fetch, magic, bad comedy, and occasional unauthorized ops work.</p>
           <div class="pet-actions">
-            <button class="pet-action" type="button" data-pet-action="poke">poke</button>
+            <button class="pet-action" type="button" data-pet-action="poke">boop</button>
             <button class="pet-action" type="button" data-pet-action="dance">dance</button>
+            <button class="pet-action" type="button" data-pet-action="fetch">fetch</button>
             <button class="pet-action" type="button" data-pet-action="magic">magic</button>
             <button class="pet-action" type="button" data-pet-action="joke">joke</button>
             <button class="pet-action" type="button" data-pet-action="help">help</button>
           </div>
-          <div class="pet-status" id="pet-status">idle // watching the desktop</div>
+          <div class="pet-status" id="pet-status">idle // Maggie is patrolling the desktop</div>
         </div>
       </section>
     </div>
@@ -642,8 +672,8 @@
         <a class="start-item" href="#hero" data-open-window="pet-window">
           <span class="start-item__code">PET</span>
           <span>
-            <strong>pet.exe</strong>
-            <small>Wake the assistant back up.</small>
+            <strong>Maggie.exe</strong>
+            <small>Wake the labrador back up.</small>
           </span>
         </a>
         <a class="start-item" href="#hero" data-open-window="winamp-window">
@@ -666,7 +696,7 @@
       <a class="task-btn" href="#results">Results</a>
       <a class="task-btn" href="about.html">About</a>
       <a class="task-btn" href="#book">BookCall</a>
-      <a class="task-btn" href="#hero" data-open-window="pet-window">pet.exe</a>
+      <a class="task-btn" href="#hero" data-open-window="pet-window">Maggie.exe</a>
       <a class="task-btn" href="#hero" data-open-window="winamp-window">Winamp</a>
     </div>
     <div class="status-box">
