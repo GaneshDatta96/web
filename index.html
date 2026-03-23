@@ -25,6 +25,7 @@
         <a href="#results">Results</a>
         <a href="#notes">Notes</a>
         <a href="#tools">Tools</a>
+        <a href="about.html">About</a>
         <a href="#book">Book Session</a>
       </nav>
     </div>
@@ -198,6 +199,7 @@
                     <a class="launch-link" href="#results">Results<small>Outcome explorer</small></a>
                     <a class="launch-link" href="#notes">Notes<small>Field notes and memos</small></a>
                     <a class="launch-link" href="#tools">Tools<small>Scorecards and calculators</small></a>
+                    <a class="launch-link" href="about.html">About<small>Profile, background, and operating lens</small></a>
                   </div>
                 </div>
 
@@ -231,6 +233,55 @@
               <span class="tile-link">Check Fit</span>
             </a>
           </div>
+
+          <section class="window mini-window intro-window" id="intro">
+            <div class="title-bar">
+              <div class="title-copy">
+                <div class="title-main">Operator_Profile.txt</div>
+                <div class="title-sub">A short introduction before you open the rest of the system</div>
+              </div>
+              <div class="title-buttons">
+                <button class="window-btn" type="button" data-window-action="minimize" aria-label="Minimize window">_</button>
+                <button class="window-btn" type="button" data-window-action="maximize" aria-label="Maximize window">□</button>
+                <button class="window-btn window-btn--close" type="button" data-window-action="close" aria-label="Close window">x</button>
+              </div>
+            </div>
+            <div class="window-body">
+              <div class="intro-grid">
+                <div class="intro-copy">
+                  <div class="window-label">Who I am</div>
+                  <p>
+                    I am Ganesh Datta, an AI-native marketing and systems operator working across creator-led
+                    growth, full-funnel strategy, and the backend layer that keeps attention turning into
+                    conversations, follow-up, and revenue.
+                  </p>
+                  <p>
+                    The work usually sits underneath the visible brand surface: sales flow, content systems,
+                    CRM structure, operator rhythm, and the mechanics that stop good momentum from dying in
+                    execution.
+                  </p>
+                  <div class="field-note">
+                    <strong>Default mode:</strong> make the flow visible, remove friction, and build something
+                    that keeps moving after the launch energy wears off.
+                  </div>
+                </div>
+
+                <div class="intro-points">
+                  <div class="about-card">
+                    <strong>Focus</strong>
+                    <p>Marketing systems, sales infrastructure, and creator-led growth that can compound instead of constantly restarting.</p>
+                  </div>
+                  <div class="about-card">
+                    <strong>Why this matters</strong>
+                    <p>If your pipeline depends on memory, mood, or manual cleanup, the operating layer is the real bottleneck.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="cta-row">
+                <a class="cta-secondary" href="about.html">Open Full Profile</a>
+              </div>
+            </div>
+          </section>
 
           <section class="window mini-window" id="offer">
             <div class="title-bar">
@@ -392,8 +443,47 @@
               </div>
               <div class="window-body">
                 <h2>About</h2>
-                <p>Works with coaches and founders selling through calls. Background in systems, automation, and sales operations. Focuses on one thing: protecting sales throughput.</p>
-                <div class="field-note"><strong>Priority order:</strong> selling first, delivery second, admin last.</div>
+                <div class="about-grid">
+                  <div class="about-copy">
+                    <p>
+                      Ganesh R Datta is an AI-native marketing leader whose work sits at the intersection of
+                      growth strategy, creator-led content, social architecture, and the systems that turn
+                      attention into revenue.
+                    </p>
+                    <p>
+                      Public LinkedIn profile snippets describe him as focused on full-funnel strategy, viral
+                      content, podcast-led brand building, and the kind of backend operating layer that keeps
+                      campaigns moving after the post is published.
+                    </p>
+                    <div class="field-note">
+                      <strong>Current thread:</strong> blending marketing, communications, customer operations,
+                      AI-driven audience segmentation, personalization, and lead scoring into one cleaner machine.
+                    </div>
+                  </div>
+
+                  <div class="about-stack">
+                    <div class="about-card">
+                      <strong>LinkedIn Snapshot</strong>
+                      <p>AI-Native Marketing Leader</p>
+                      <p>8+ years scaling brands with viral content, full-funnel strategy, and creator-led growth</p>
+                    </div>
+                    <div class="about-card">
+                      <strong>Working Lens</strong>
+                      <ul class="plain-list">
+                        <li>Podcast host and social media architect</li>
+                        <li>Systems-first operator across marketing and customer ops</li>
+                        <li>Focused on machines that keep selling after the campaign goes live</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="field-note">
+                  <strong>Why this site looks like a desktop:</strong> the same systems mindset applies to the
+                  brand itself. Every touchpoint should feel like an operating environment, not a generic landing page.
+                </div>
+                <div class="cta-row">
+                  <a class="cta-secondary" href="about.html">Open Full Profile</a>
+                </div>
               </div>
             </section>
           </div>
@@ -442,10 +532,33 @@
           </div>
         </div>
         <div class="window-body pet-body">
-          <pre class="pet-glyph" aria-hidden="true"> /\_/\\
+          <div class="pet-stage">
+            <div class="pet-sparkles" aria-hidden="true">
+              <span>*</span>
+              <span>+</span>
+              <span>*</span>
+              <span>+</span>
+              <span>*</span>
+              <span>+</span>
+              <span>*</span>
+              <span>+</span>
+            </div>
+            <button class="pet-face" id="pet-face" type="button" aria-label="Interact with pet">
+              <pre class="pet-glyph" id="pet-glyph" aria-hidden="true"> /\_/\\
 ( o.o )
  > ^ <</pre>
-          <p>I react when you click the desktop controls.</p>
+            </button>
+          </div>
+          <div class="pet-trick" id="pet-trick">stage // top hat armed</div>
+          <p>Click the face. Make it dance. Ask for a trick. It gets worse from there.</p>
+          <div class="pet-actions">
+            <button class="pet-action" type="button" data-pet-action="poke">poke</button>
+            <button class="pet-action" type="button" data-pet-action="dance">dance</button>
+            <button class="pet-action" type="button" data-pet-action="magic">magic</button>
+            <button class="pet-action" type="button" data-pet-action="joke">joke</button>
+            <button class="pet-action" type="button" data-pet-action="help">help</button>
+          </div>
+          <div class="pet-status" id="pet-status">idle // watching the desktop</div>
         </div>
       </section>
     </div>
@@ -472,18 +585,86 @@
           <span>VOL</span>
           <input class="winamp-volume" id="winamp-volume" type="range" min="0" max="1" step="0.01" value="0.55" aria-label="Volume">
         </div>
+        <div class="winamp-lower">
+          <div class="winamp-track" id="winamp-track">READY - Operator Loop 01</div>
+          <div class="winamp-spectrum" id="winamp-spectrum" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
       </div>
       <audio id="winamp-audio" preload="none"></audio>
     </section>
   </main>
 
+  <div class="start-menu" id="start-menu" hidden>
+    <div class="start-menu__panel">
+      <div class="start-menu__brand">Ganesh OS</div>
+      <div class="start-menu__body">
+        <a class="start-item" href="#desktop-window">
+          <span class="start-item__code">AUD</span>
+          <span>
+            <strong>Desktop</strong>
+            <small>Return to the main control center.</small>
+          </span>
+        </a>
+        <a class="start-item" href="about.html">
+          <span class="start-item__code">BIO</span>
+          <span>
+            <strong>About</strong>
+            <small>Open the full profile and photo view.</small>
+          </span>
+        </a>
+        <a class="start-item" href="#tools">
+          <span class="start-item__code">TLS</span>
+          <span>
+            <strong>Tools</strong>
+            <small>Jump to diagnostics, scorecards, and calculators.</small>
+          </span>
+        </a>
+        <a class="start-item" href="#book">
+          <span class="start-item__code">CAL</span>
+          <span>
+            <strong>Book</strong>
+            <small>Open the working-session booking panel.</small>
+          </span>
+        </a>
+        <a class="start-item" href="#hero" data-open-window="pet-window">
+          <span class="start-item__code">PET</span>
+          <span>
+            <strong>pet.exe</strong>
+            <small>Wake the assistant back up.</small>
+          </span>
+        </a>
+        <a class="start-item" href="#hero" data-open-window="winamp-window">
+          <span class="start-item__code">AMP</span>
+          <span>
+            <strong>Winamp</strong>
+            <small>Bring the player back to the front.</small>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+
   <footer class="taskbar">
-    <span class="start-btn">Start</span>
+    <button class="start-btn" id="start-btn" type="button" aria-expanded="false" aria-controls="start-menu">Start</button>
     <div class="divider" aria-hidden="true"></div>
     <div class="task-group" aria-label="Taskbar shortcuts">
       <a class="task-btn" href="#desktop-window">Desktop</a>
       <a class="task-btn" href="#offer">Install</a>
       <a class="task-btn" href="#results">Results</a>
+      <a class="task-btn" href="about.html">About</a>
       <a class="task-btn" href="#book">BookCall</a>
       <a class="task-btn" href="#hero" data-open-window="pet-window">pet.exe</a>
       <a class="task-btn" href="#hero" data-open-window="winamp-window">Winamp</a>
