@@ -232,6 +232,12 @@ ul {
   transform: translate3d(var(--slide-x, 0px), var(--slide-y, 0px), 0);
   transition: transform 180ms ease-out;
   will-change: transform;
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+.icon-link:visited {
+  color: #1f1f1f;
 }
 
 .icon-link--active .icon-box {
@@ -243,6 +249,10 @@ ul {
 
 .icon-link--active .icon-label {
   color: #10357e;
+}
+
+.icon-label {
+  color: inherit;
 }
 
 .icon-box {
