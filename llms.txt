@@ -1,0 +1,22 @@
+# Ganesh Datta
+
+> Ganesh Datta installs sales infrastructure for coaches and founders so booking, follow-up, CRM, and content systems keep running without constant manual effort.
+
+Primary site: https://ganeshdatta.me/
+
+## Core pages
+- [Home](https://ganeshdatta.me/): Sales throughput systems — booking, follow-up, CRM, content tied to pipeline
+- [About](https://ganeshdatta.me/about.html): Who Ganesh R Datta is and how the operating work is scoped
+- [Book a session](https://cal.com/ganesh-datta-bygktk/sales-throughput-session): 30-minute working session on the actual bottleneck
+
+## What gets installed
+- Call-booking infrastructure that removes manual scheduling
+- Follow-up and no-show recovery that does not depend on memory
+- CRM ownership that is visible instead of implied
+- Content distribution tied to conversations, not random posting
+
+## Fit
+For operators already selling through calls. Not for beginners, first-time sellers, or people looking for a course.
+
+## Optional
+- [Full index](https://ganeshdatta.me/llms-full.txt): longer machine-readable map of the site

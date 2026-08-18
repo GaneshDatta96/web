@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Ganesh Datta",
+  "url": "https://ganeshdatta.me/",
+  "description": "Sales infrastructure install for coaches and founders: booking, follow-up, CRM, and content systems.",
+  "founder": {
+    "@type": "Person",
+    "name": "Ganesh R Datta",
+    "url": "https://ganeshdatta.me/",
+    "jobTitle": "AI-native marketing and systems operator"
+  },
+  "areaServed": "Worldwide",
+  "sameAs": [
+    "https://cal.com/ganesh-datta-bygktk"
+  ]
+}
