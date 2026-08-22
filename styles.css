@@ -2310,3 +2310,68 @@ ul {
   font-size: 13px;
   white-space: nowrap;
 }
+
+.note-answer {
+  margin: 0 0 18px;
+  padding: 14px 16px;
+  border: 2px solid;
+  border-color: var(--line-dark) var(--line-light) var(--line-light) var(--line-dark);
+  background: #fff8ee;
+}
+
+.note-answer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.note-author {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 0 0 18px;
+}
+
+.note-author img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border: 2px solid var(--line-dark);
+}
+
+.note-author p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.note-diagram {
+  margin: 8px 0 20px;
+}
+
+.note-diagram figcaption {
+  font-size: 13px;
+  color: var(--text-soft);
+  margin-top: 6px;
+}
+
+.note-steps,
+.note-bullets,
+.note-cites,
+.note-related {
+  margin: 0 0 16px;
+  padding-left: 22px;
+  color: var(--text-copy);
+}
+
+.note-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 18px;
+  font-size: 14px;
+}
+
+.note-table th,
+.note-table td {
+  border: 1px solid var(--line-mid);
+  padding: 8px 10px;
+  text-align: left;
+}
