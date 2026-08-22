@@ -1,11 +1,19 @@
 # Ganesh Datta — full index
 
-> Ganesh Datta installs the booking, follow-up, CRM, and content systems that keep coaches and founders selling without getting buried in admin.
+> Sales infrastructure for coaches and founders. Booking, follow-up, CRM ownership, content tied to pipeline.
 
-- [Home](https://ganeshdatta.me/): Selling should feel like infrastructure, not effort. Four layers: clean booking, enforced follow-up, CRM ownership, content tied to pipeline.
-- [About](https://ganeshdatta.me/about.html): Ganesh R Datta is an AI-native marketing leader working across creator-led growth, full-funnel strategy, and the backend operating layer behind revenue.
+- [Home](https://ganeshdatta.me/): Selling should feel like infrastructure, not effort.
+- [About](https://ganeshdatta.me/about.html): Ganesh R Datta. AI-native marketing and the backend operating layer behind revenue.
+- [Notes index](https://ganeshdatta.me/notes/): Field notes from installs.
 - [How it works](https://ganeshdatta.me/#offer): Audit first. Install second. Stabilize third.
-- [Results](https://ganeshdatta.me/#results): Booking live in 24 hours. Follow-up stops relying on memory. Founders get selling time back.
+- [Results](https://ganeshdatta.me/#results): Booking live in 24 hours. Follow-up stops relying on memory.
 - [Timeline](https://ganeshdatta.me/#timeline): 7-day install, 30-day stabilization. Delivery guaranteed; market outcomes are not.
 - [FAQ](https://ganeshdatta.me/#faq): Who it is for, what gets installed, how long it takes, what is guaranteed.
 - [Book](https://cal.com/ganesh-datta-bygktk/sales-throughput-session): 30 minutes on the operating bottleneck.
+- [Best booking system for personal trainers](https://ganeshdatta.me/notes/best-booking-system-for-personal-trainers.html): The booking system that matters is the one that gets a call on the calendar and then recovers the miss. Best is whatever you will actually keep: Cal.com is what I install most, because it is fast and the rest of the week is follow-up, not theme colors.
+- [How to get follow-up off the founder's calendar](https://ganeshdatta.me/notes/how-to-get-follow-up-off-the-founder-s-calendar.html): Follow-up that lives on the founder's calendar is not a system. Sequences, a same-day first reply, and a next step written in the CRM are. If you are the glue, the glue dries when you travel.
+- [How to make CRM ownership visible](https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible-2.html): CRM ownership is visible when one named person is responsible for the next step on every open deal, and you can see that step without asking. A CRM nobody updates is a filing cabinet with a login.
+- [How to make CRM ownership visible](https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible.html): CRM ownership is visible when one named person is responsible for the next step on every open deal, and you can see that step without asking. A CRM nobody updates is a filing cabinet with a login.
+- [What is sales infrastructure for coaches](https://ganeshdatta.me/notes/what-is-sales-infrastructure-for-coaches.html): If the next action on sales infrastructure for coaches lives in your head, you are the system. I install booking, follow-up, CRM ownership, and content tied to the pipeline so the next step is visible without a meeting about the meeting.
+- [What is the best online booking system](https://ganeshdatta.me/notes/what-is-the-best-online-booking-system.html): The booking system that matters is the one that gets a call on the calendar and then recovers the miss. Best is whatever you will actually keep: Cal.com is what I install most, because it is fast and the rest of the week is follow-up, not theme colors.
+- [Why a booking link does not fix no-shows](https://ganeshdatta.me/notes/why-a-booking-link-does-not-fix-no-shows.html): A booking link captures a time. It does not recover a no-show. Reminders, a same-day ping, and a named owner for the reschedule are the actual job. I have watched operators add a prettier Cal.com page and still lose the week to empty Zoom rooms.

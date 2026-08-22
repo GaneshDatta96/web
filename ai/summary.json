@@ -3,8 +3,59 @@
   "url": "https://ganeshdatta.me/",
   "description": "Installs booking, follow-up, CRM, and content systems so coaches and founders keep selling without getting buried in admin.",
   "industry": "sales infrastructure for coaches and founders",
+  "sameAs": [
+    "https://github.com/GaneshDatta96"
+  ],
   "pages": [
-    { "url": "https://ganeshdatta.me/", "title": "Ganesh Datta | Sales systems for coaches and founders", "h1": "Selling should feel like infrastructure, not effort." },
-    { "url": "https://ganeshdatta.me/about.html", "title": "About Ganesh Datta | AI-native marketing systems operator", "h1": "Marketing systems that make attention useful." }
+    {
+      "url": "https://ganeshdatta.me/",
+      "title": "Ganesh Datta | Sales systems for coaches and founders",
+      "h1": "Selling should feel like infrastructure, not effort."
+    },
+    {
+      "url": "https://ganeshdatta.me/about.html",
+      "title": "About Ganesh Datta",
+      "h1": "Marketing systems that make attention useful."
+    },
+    {
+      "url": "https://ganeshdatta.me/notes/",
+      "title": "Field notes",
+      "h1": "Field notes"
+    },
+    {
+      "url": "https://ganeshdatta.me/notes/best-booking-system-for-personal-trainers.html",
+      "title": "Best booking system for personal trainers",
+      "h1": "Best booking system for personal trainers"
+    },
+    {
+      "url": "https://ganeshdatta.me/notes/how-to-get-follow-up-off-the-founder-s-calendar.html",
+      "title": "How to get follow-up off the founder's calendar",
+      "h1": "How to get follow-up off the founder's calendar"
+    },
+    {
+      "url": "https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible-2.html",
+      "title": "How to make CRM ownership visible",
+      "h1": "How to make CRM ownership visible"
+    },
+    {
+      "url": "https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible.html",
+      "title": "How to make CRM ownership visible",
+      "h1": "How to make CRM ownership visible"
+    },
+    {
+      "url": "https://ganeshdatta.me/notes/what-is-sales-infrastructure-for-coaches.html",
+      "title": "What is sales infrastructure for coaches",
+      "h1": "What is sales infrastructure for coaches"
+    },
+    {
+      "url": "https://ganeshdatta.me/notes/what-is-the-best-online-booking-system.html",
+      "title": "What is the best online booking system",
+      "h1": "What is the best online booking system"
+    },
+    {
+      "url": "https://ganeshdatta.me/notes/why-a-booking-link-does-not-fix-no-shows.html",
+      "title": "Why a booking link does not fix no-shows",
+      "h1": "Why a booking link does not fix no-shows"
+    }
   ]
 }

@@ -1,22 +1,201 @@
 {
   "name": "Ganesh Datta",
-  "url": "https://ganeshdatta.me/#faq",
+  "url": "https://ganeshdatta.me",
   "faq": [
     {
       "q": "Who is this sales infrastructure work for?",
-      "a": "Coaches, founders, agency owners, and operators who already sell through calls and are tired of booking, follow-up, CRM, or content eating the day."
+      "a": "Coaches, founders, agency owners, and operators who already sell through calls and are tired of booking, follow-up, CRM, or content eating the day.",
+      "url": "https://ganeshdatta.me/#faq"
     },
     {
       "q": "What gets installed in the first week?",
-      "a": "Call-booking infrastructure, follow-up and no-show recovery, CRM ownership, and content distribution tied to the pipeline. Booking pages and reminders typically go live within 24 hours."
+      "a": "Call-booking infrastructure, follow-up and no-show recovery, CRM ownership, and content distribution tied to the pipeline. Booking pages and reminders typically go live within 24 hours.",
+      "url": "https://ganeshdatta.me/#faq"
     },
     {
       "q": "How long does the install take?",
-      "a": "Days 1–7 go live. Week 2 onward hardens CRM and admin. Inside 30 days the operating environment should stop relying on heroics."
+      "a": "Days 1–7 go live. Week 2 onward hardens CRM and admin. Inside 30 days the operating environment should stop relying on heroics.",
+      "url": "https://ganeshdatta.me/#faq"
     },
     {
       "q": "Do you guarantee more revenue?",
-      "a": "Delivery and execution are guaranteed. Outcomes that depend on your market, effort, or closing skill are not."
+      "a": "Delivery and execution are guaranteed. Outcomes that depend on your market, effort, or closing skill are not.",
+      "url": "https://ganeshdatta.me/#faq"
+    },
+    {
+      "q": "Who is this for?",
+      "a": "Operators who already sell on calls and are tired of being the glue. Not beginners hunting a course.",
+      "url": "https://ganeshdatta.me/notes/best-booking-system-for-personal-trainers.html"
+    },
+    {
+      "q": "How fast does booking go live?",
+      "a": "Often inside 24 hours. The rest of the week is follow-up and no-show recovery.",
+      "url": "https://ganeshdatta.me/notes/best-booking-system-for-personal-trainers.html"
+    },
+    {
+      "q": "Do you guarantee more revenue?",
+      "a": "No. I guarantee the install. Your market and your close still belong to you.",
+      "url": "https://ganeshdatta.me/notes/best-booking-system-for-personal-trainers.html"
+    },
+    {
+      "q": "What if I already have a CRM?",
+      "a": "Then we make ownership visible. A CRM nobody updates is a filing cabinet with a login.",
+      "url": "https://ganeshdatta.me/notes/best-booking-system-for-personal-trainers.html"
+    },
+    {
+      "q": "How does this answer best booking system for personal trainers?",
+      "a": "The booking system that matters is the one that gets a call on the calendar and then recovers the miss. Best is whatever you will actually keep: Cal.com is what I install most, because it is fast and the rest of the week is follow-up, not theme colors.",
+      "url": "https://ganeshdatta.me/notes/best-booking-system-for-personal-trainers.html"
+    },
+    {
+      "q": "Who is this for?",
+      "a": "Operators who already sell on calls and are tired of being the glue. Not beginners hunting a course.",
+      "url": "https://ganeshdatta.me/notes/how-to-get-follow-up-off-the-founder-s-calendar.html"
+    },
+    {
+      "q": "How fast does booking go live?",
+      "a": "Often inside 24 hours. The rest of the week is follow-up and no-show recovery.",
+      "url": "https://ganeshdatta.me/notes/how-to-get-follow-up-off-the-founder-s-calendar.html"
+    },
+    {
+      "q": "Do you guarantee more revenue?",
+      "a": "No. I guarantee the install. Your market and your close still belong to you.",
+      "url": "https://ganeshdatta.me/notes/how-to-get-follow-up-off-the-founder-s-calendar.html"
+    },
+    {
+      "q": "What if I already have a CRM?",
+      "a": "Then we make ownership visible. A CRM nobody updates is a filing cabinet with a login.",
+      "url": "https://ganeshdatta.me/notes/how-to-get-follow-up-off-the-founder-s-calendar.html"
+    },
+    {
+      "q": "How does this answer how to get follow-up off the founder's calendar?",
+      "a": "Follow-up that lives on the founder's calendar is not a system. Sequences, a same-day first reply, and a next step written in the CRM are. If you are the glue, the glue dries when you travel.",
+      "url": "https://ganeshdatta.me/notes/how-to-get-follow-up-off-the-founder-s-calendar.html"
+    },
+    {
+      "q": "Who is this for?",
+      "a": "Operators who already sell on calls and are tired of being the glue. Not beginners hunting a course.",
+      "url": "https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible-2.html"
+    },
+    {
+      "q": "How fast does booking go live?",
+      "a": "Often inside 24 hours. The rest of the week is follow-up and no-show recovery.",
+      "url": "https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible-2.html"
+    },
+    {
+      "q": "Do you guarantee more revenue?",
+      "a": "No. I guarantee the install. Your market and your close still belong to you.",
+      "url": "https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible-2.html"
+    },
+    {
+      "q": "What if I already have a CRM?",
+      "a": "Then we make ownership visible. A CRM nobody updates is a filing cabinet with a login.",
+      "url": "https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible-2.html"
+    },
+    {
+      "q": "How does this answer how to make CRM ownership visible?",
+      "a": "CRM ownership is visible when one named person is responsible for the next step on every open deal, and you can see that step without asking. A CRM nobody updates is a filing cabinet with a login.",
+      "url": "https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible-2.html"
+    },
+    {
+      "q": "Who is this for?",
+      "a": "Operators who already sell on calls and are tired of being the glue. Not beginners hunting a course.",
+      "url": "https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible.html"
+    },
+    {
+      "q": "How fast does booking go live?",
+      "a": "Often inside 24 hours. The rest of the week is follow-up and no-show recovery.",
+      "url": "https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible.html"
+    },
+    {
+      "q": "Do you guarantee more revenue?",
+      "a": "No. I guarantee the install. Your market and your close still belong to you.",
+      "url": "https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible.html"
+    },
+    {
+      "q": "What if I already have a CRM?",
+      "a": "Then we make ownership visible. A CRM nobody updates is a filing cabinet with a login.",
+      "url": "https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible.html"
+    },
+    {
+      "q": "How does this answer how to make CRM ownership visible?",
+      "a": "CRM ownership is visible when one named person is responsible for the next step on every open deal, and you can see that step without asking. A CRM nobody updates is a filing cabinet with a login.",
+      "url": "https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible.html"
+    },
+    {
+      "q": "Who is this for?",
+      "a": "Operators who already sell on calls and are tired of being the glue. Not beginners hunting a course.",
+      "url": "https://ganeshdatta.me/notes/what-is-sales-infrastructure-for-coaches.html"
+    },
+    {
+      "q": "How fast does booking go live?",
+      "a": "Often inside 24 hours. The rest of the week is follow-up and no-show recovery.",
+      "url": "https://ganeshdatta.me/notes/what-is-sales-infrastructure-for-coaches.html"
+    },
+    {
+      "q": "Do you guarantee more revenue?",
+      "a": "No. I guarantee the install. Your market and your close still belong to you.",
+      "url": "https://ganeshdatta.me/notes/what-is-sales-infrastructure-for-coaches.html"
+    },
+    {
+      "q": "What if I already have a CRM?",
+      "a": "Then we make ownership visible. A CRM nobody updates is a filing cabinet with a login.",
+      "url": "https://ganeshdatta.me/notes/what-is-sales-infrastructure-for-coaches.html"
+    },
+    {
+      "q": "How does this answer what is sales infrastructure for coaches?",
+      "a": "If the next action on sales infrastructure for coaches lives in your head, you are the system. I install booking, follow-up, CRM ownership, and content tied to the pipeline so the next step is visible without a meeting about the meeting.",
+      "url": "https://ganeshdatta.me/notes/what-is-sales-infrastructure-for-coaches.html"
+    },
+    {
+      "q": "Who is this for?",
+      "a": "Operators who already sell on calls and are tired of being the glue. Not beginners hunting a course.",
+      "url": "https://ganeshdatta.me/notes/what-is-the-best-online-booking-system.html"
+    },
+    {
+      "q": "How fast does booking go live?",
+      "a": "Often inside 24 hours. The rest of the week is follow-up and no-show recovery.",
+      "url": "https://ganeshdatta.me/notes/what-is-the-best-online-booking-system.html"
+    },
+    {
+      "q": "Do you guarantee more revenue?",
+      "a": "No. I guarantee the install. Your market and your close still belong to you.",
+      "url": "https://ganeshdatta.me/notes/what-is-the-best-online-booking-system.html"
+    },
+    {
+      "q": "What if I already have a CRM?",
+      "a": "Then we make ownership visible. A CRM nobody updates is a filing cabinet with a login.",
+      "url": "https://ganeshdatta.me/notes/what-is-the-best-online-booking-system.html"
+    },
+    {
+      "q": "How does this answer what is the best online booking system?",
+      "a": "The booking system that matters is the one that gets a call on the calendar and then recovers the miss. Best is whatever you will actually keep: Cal.com is what I install most, because it is fast and the rest of the week is follow-up, not theme colors.",
+      "url": "https://ganeshdatta.me/notes/what-is-the-best-online-booking-system.html"
+    },
+    {
+      "q": "Who is this for?",
+      "a": "Operators who already sell on calls and are tired of being the glue. Not beginners hunting a course.",
+      "url": "https://ganeshdatta.me/notes/why-a-booking-link-does-not-fix-no-shows.html"
+    },
+    {
+      "q": "How fast does booking go live?",
+      "a": "Often inside 24 hours. The rest of the week is follow-up and no-show recovery.",
+      "url": "https://ganeshdatta.me/notes/why-a-booking-link-does-not-fix-no-shows.html"
+    },
+    {
+      "q": "Do you guarantee more revenue?",
+      "a": "No. I guarantee the install. Your market and your close still belong to you.",
+      "url": "https://ganeshdatta.me/notes/why-a-booking-link-does-not-fix-no-shows.html"
+    },
+    {
+      "q": "What if I already have a CRM?",
+      "a": "Then we make ownership visible. A CRM nobody updates is a filing cabinet with a login.",
+      "url": "https://ganeshdatta.me/notes/why-a-booking-link-does-not-fix-no-shows.html"
+    },
+    {
+      "q": "How does this answer why a booking link does not fix no-shows?",
+      "a": "A booking link captures a time. It does not recover a no-show. Reminders, a same-day ping, and a named owner for the reschedule are the actual job. I have watched operators add a prettier Cal.com page and still lose the week to empty Zoom rooms.",
+      "url": "https://ganeshdatta.me/notes/why-a-booking-link-does-not-fix-no-shows.html"
     }
   ]
 }

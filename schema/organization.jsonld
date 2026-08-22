@@ -3,15 +3,20 @@
   "@type": "ProfessionalService",
   "name": "Ganesh Datta",
   "url": "https://ganeshdatta.me/",
+  "image": "https://ganeshdatta.me/photos/original.png",
   "description": "Sales infrastructure install for coaches and founders: booking, follow-up, CRM, and content systems.",
   "founder": {
     "@type": "Person",
     "name": "Ganesh R Datta",
     "url": "https://ganeshdatta.me/",
-    "jobTitle": "AI-native marketing and systems operator"
+    "image": "https://ganeshdatta.me/photos/original.png",
+    "jobTitle": "Sales infrastructure operator",
+    "sameAs": [
+      "https://github.com/GaneshDatta96"
+    ]
   },
   "areaServed": "Worldwide",
   "sameAs": [
-    "https://cal.com/ganesh-datta-bygktk"
+    "https://github.com/GaneshDatta96"
   ]
 }

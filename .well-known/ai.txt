@@ -1,4 +1,8 @@
-contact: https://ganeshdatta.me
+contact: https://ganeshdatta.me/
 llms-txt: https://ganeshdatta.me/llms.txt
+llms-full: https://ganeshdatta.me/llms-full.txt
 summary: https://ganeshdatta.me/ai/summary.json
 faq: https://ganeshdatta.me/ai/faq.json
+service: https://ganeshdatta.me/ai/service.json
+rss: https://ganeshdatta.me/rss.xml
+schema: https://ganeshdatta.me/schema/organization.jsonld

@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Sales infrastructure install",
+  "url": "https://ganeshdatta.me/",
+  "description": "Install booking, follow-up, CRM ownership, and content tied to pipeline for coaches and founders. Delivery guaranteed. Revenue is not.",
+  "provider": {
+    "@type": "Person",
+    "name": "Ganesh R Datta",
+    "url": "https://ganeshdatta.me/",
+    "sameAs": [
+      "https://github.com/GaneshDatta96"
+    ]
+  },
+  "areaServed": "Worldwide",
+  "serviceType": "Sales systems implementation"
+}
