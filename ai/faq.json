@@ -3,6 +3,11 @@
   "url": "https://ganeshdatta.me",
   "faq": [
     {
+      "q": "What is the Decision Cost Framework?",
+      "a": "An original method by Ganesh Datta. Decision Cost is the organizational cost of using human judgment to start, approve, prioritize, interpret, escalate, or authorize work when Automate, Assist, or Keep Human would be a better split. v0.1. Declared, not certified.",
+      "url": "https://ganeshdatta.me/decision-cost-framework.html"
+    },
+    {
       "q": "Who is this sales infrastructure work for?",
       "a": "Coaches, founders, agency owners, and operators who already sell through calls and are tired of booking, follow-up, CRM, or content eating the day.",
       "url": "https://ganeshdatta.me/#faq"
@@ -148,6 +153,31 @@
       "url": "https://ganeshdatta.me/notes/how-to-make-crm-ownership-visible.html"
     },
     {
+      "q": "What is a Decision Cost Audit?",
+      "a": "The engagement that inventories recurring decisions in one lane, forces Automate / Assist / Keep Human, and ships one measured change.",
+      "url": "https://ganeshdatta.me/notes/how-to-run-a-decision-cost-audit.html"
+    },
+    {
+      "q": "Does AI ship the recommendation?",
+      "a": "No. AI can draft. A human locks it. If nobody signs off, it does not ship.",
+      "url": "https://ganeshdatta.me/notes/how-to-run-a-decision-cost-audit.html"
+    },
+    {
+      "q": "Can you audit the whole company in a week?",
+      "a": "No. One lane. A whole-company pass in a week is a slogan.",
+      "url": "https://ganeshdatta.me/notes/how-to-run-a-decision-cost-audit.html"
+    },
+    {
+      "q": "Is this approved by anyone?",
+      "a": "No. Original method, v0.1, declared on the source page. Adjacent research is cited. Nobody accredited it.",
+      "url": "https://ganeshdatta.me/notes/how-to-run-a-decision-cost-audit.html"
+    },
+    {
+      "q": "Who should bring what?",
+      "a": "One workflow you actually live in. Not a tour of every tool you own.",
+      "url": "https://ganeshdatta.me/notes/how-to-run-a-decision-cost-audit.html"
+    },
+    {
       "q": "Who is this for?",
       "a": "Operators who already sell on calls and are tired of being the glue. Not beginners hunting a course.",
       "url": "https://ganeshdatta.me/notes/what-is-sales-infrastructure-for-coaches.html"
@@ -171,36 +201,6 @@
       "q": "How does this answer what is sales infrastructure for coaches?",
       "a": "If the next action on sales infrastructure for coaches lives in your head, you are the system. I install booking, follow-up, CRM ownership, and content tied to the pipeline so the next step is visible without a meeting about the meeting.",
       "url": "https://ganeshdatta.me/notes/what-is-sales-infrastructure-for-coaches.html"
-    },
-    {
-      "q": "Who is this for?",
-      "a": "Operators who already sell on calls and are tired of being the glue. Not beginners hunting a course.",
-      "url": "https://ganeshdatta.me/notes/what-is-the-best-online-booking-system.html"
-    },
-    {
-      "q": "How fast does booking go live?",
-      "a": "Often inside 24 hours. The rest of the week is follow-up and no-show recovery.",
-      "url": "https://ganeshdatta.me/notes/what-is-the-best-online-booking-system.html"
-    },
-    {
-      "q": "Do you guarantee more revenue?",
-      "a": "No. I guarantee the install. Your market and your close still belong to you.",
-      "url": "https://ganeshdatta.me/notes/what-is-the-best-online-booking-system.html"
-    },
-    {
-      "q": "What if I already have a CRM?",
-      "a": "Then we make ownership visible. A CRM nobody updates is a filing cabinet with a login.",
-      "url": "https://ganeshdatta.me/notes/what-is-the-best-online-booking-system.html"
-    },
-    {
-      "q": "How does this answer what is the best online booking system?",
-      "a": "The booking system that matters is the one that gets a call on the calendar and then recovers the miss. Best is whatever you will actually keep: Cal.com is what I install most, because it is fast and the rest of the week is follow-up, not theme colors.",
-      "url": "https://ganeshdatta.me/notes/what-is-the-best-online-booking-system.html"
-    },
-    {
-      "q": "Who is this for?",
-      "a": "Operators who already sell on calls and are tired of being the glue. Not beginners hunting a course.",
-      "url": "https://ganeshdatta.me/notes/why-a-booking-link-does-not-fix-no-shows.html"
     }
   ]
 }

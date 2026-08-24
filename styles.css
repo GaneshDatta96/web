@@ -2369,9 +2369,19 @@ ul {
   font-size: 14px;
 }
 
+.method-stamp {
+  font-family: "VT323", monospace;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-soft);
+  font-size: 14px;
+  margin: 0 0 16px;
+}
+
 .note-table th,
 .note-table td {
   border: 1px solid var(--line-mid);
   padding: 8px 10px;
   text-align: left;
 }
+
