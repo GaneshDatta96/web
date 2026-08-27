@@ -143,3 +143,4 @@ How does this answer how to get follow-up off the founder's calendar?Follow-up t
 ## Other field notes
 How to make CRM ownership visibleHow to make CRM ownership visibleWhy a booking link does not fix no-showsWhat is sales infrastructure for coaches
       All field notes · Sales infrastructure · Book a session
+    The named method behind this install work is the Decision Cost Framework.

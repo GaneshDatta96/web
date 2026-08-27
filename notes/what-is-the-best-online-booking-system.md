@@ -143,3 +143,4 @@ How does this answer what is the best online booking system?The booking system t
 ## Other field notes
 How to make CRM ownership visibleHow to make CRM ownership visibleWhy a booking link does not fix no-showsWhat is sales infrastructure for coaches
       All field notes · Sales infrastructure · Book a session
+    The named method behind this install work is the Decision Cost Framework.

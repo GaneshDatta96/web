@@ -143,3 +143,4 @@ How does this answer what is sales infrastructure for coaches?If the next action
 ## Other field notes
 How to make CRM ownership visibleHow to make CRM ownership visibleWhy a booking link does not fix no-showsHow to get follow-up off the founder's calendar
       All field notes · Sales infrastructure · Book a session
+    The named method behind this install work is the Decision Cost Framework.

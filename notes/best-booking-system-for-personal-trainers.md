@@ -14,6 +14,7 @@ Best booking system for personal trainers | Ganesh Datta
   
   
   
+  
 
   
     
@@ -22,7 +23,9 @@ Best booking system for personal trainers | Ganesh Datta
         How It Works
         Results
         Notes
+        Framework
         About
+        Contact
         Book Session
       
     
@@ -141,5 +144,5 @@ How does this answer best booking system for personal trainers?The booking syste
 
       
 ## Other field notes
-How to make CRM ownership visibleHow to make CRM ownership visibleWhy a booking link does not fix no-showsWhat is sales infrastructure for coaches
-      All field notes · Sales infrastructure · Book a session
+How to run a Decision Cost AuditWhat is the Decision Cost FrameworkBest booking system for coachesHow to make CRM ownership visible
+      All field notes · Decision Cost Framework · Sales infrastructure · Book a session

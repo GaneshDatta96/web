@@ -143,3 +143,4 @@ How does this answer why a booking link does not fix no-shows?A booking link cap
 ## Other field notes
 How to make CRM ownership visibleHow to make CRM ownership visibleWhat is sales infrastructure for coachesHow to get follow-up off the founder's calendar
       All field notes · Sales infrastructure · Book a session
+    The named method behind this install work is the Decision Cost Framework.
