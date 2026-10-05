@@ -1,3 +1,3 @@
 build=2026-10-05
 release=celeris-homepage
-summary=Homepage rebuilt around the Celeris practice: menu aligned, reel carousel and favicon shipped, copy tightened to name AyurDoc (AI CDSS for Ayurveda doctors) and THC CDSS plainly, marquee/chips/score cycle and hero pointer effect removed; free Decision Cost teardown page added
+summary=Homepage rebuilt around the Celeris practice: menu enlarged and aligned, hero lined up with the reel and a visible unmute, about carousel plays every reel with rounded frames and click-to-pause, favicon shipped, copy names AyurDoc as an AI clinician decision support system and THC CDSS plainly, marquee and hero pointer effect removed
