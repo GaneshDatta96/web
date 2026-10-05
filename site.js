@@ -124,7 +124,6 @@
     window.addEventListener("scroll", onScroll, { passive: true });
   }
 
-  var hero = document.querySelector(".hero");
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var reel = document.querySelector(".hero-portrait video");
   var sound = document.querySelector("[data-sound]");
@@ -143,14 +142,6 @@
       });
     }
   }
-  if (hero && !reduce) {
-    hero.addEventListener("pointermove", function (event) {
-      var rect = hero.getBoundingClientRect();
-      hero.style.setProperty("--mx", ((event.clientX - rect.left) / rect.width * 100).toFixed(1) + "%");
-      hero.style.setProperty("--my", ((event.clientY - rect.top) / rect.height * 100).toFixed(1) + "%");
-    });
-  }
-
   var stepMs = 4000;
   var stagger = 0;
 

@@ -1,6 +1,6 @@
 # Ganesh Datta
 
-Ganesh Datta directs brand and creative at Celeris Creative. He designs identity, websites, and AI workflows. Builds include Vande Wellness, VandeCart, Vande University, Total Health Centers, and AyurDoc. He wrote the Decision Cost Framework, v0.1, 10 August 2026, code 100705.
+Ganesh Datta directs brand and creative at Celeris Creative. AyurDoc is an AI CDSS, an artificial intelligence clinician decision support system for Ayurveda doctors. THC CDSS is the clinician decision support system for Total Health Centers. Vande Wellness, VandeCart, and Vande University are the brand and the sites. He wrote the Decision Cost Framework, v0.1, 10 August 2026, code 100705.
 
 - Site: https://ganeshdatta.me/
 - Framework: https://ganeshdatta.me/decision-cost-framework.html

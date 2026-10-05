@@ -43,19 +43,6 @@ body {
   line-height: 1.55;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  opacity: 0.45;
-  background-image:
-    linear-gradient(rgba(239, 232, 220, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(239, 232, 220, 0.035) 1px, transparent 1px);
-  background-size: 72px 72px;
-  mask-image: linear-gradient(180deg, #000 0%, transparent 78%);
-}
-
 a, button { font: inherit; color: inherit; }
 a { text-decoration: none; }
 button { cursor: pointer; background: none; border: 0; padding: 0; }
@@ -137,29 +124,37 @@ summary:focus-visible {
   color: var(--signal) !important;
 }
 
-.marquee {
-  overflow: hidden;
+.work-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   border-bottom: 1px solid var(--line);
-  background: #0c0e0a;
 }
 
-.marquee-track {
-  display: flex;
-  width: max-content;
-  gap: 28px;
-  padding: 10px 0;
-  font-family: var(--mono);
-  font-size: 12px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--dim);
-  animation: ticker 42s linear infinite;
+.work-list a {
+  display: block;
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
 }
 
-@keyframes ticker {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+.work-list strong {
+  display: block;
+  font-family: var(--serif);
+  font-weight: 520;
+  font-size: 1.2rem;
+  letter-spacing: -0.02em;
+  color: var(--text);
 }
+
+.work-list span {
+  display: block;
+  margin-top: 4px;
+  color: var(--copy);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.work-list a:hover strong { color: var(--signal); }
 
 .page { position: relative; }
 
@@ -179,16 +174,6 @@ summary:focus-visible {
 .hero {
   position: relative;
   padding: 72px 0 36px;
-  --mx: 70%;
-  --my: 20%;
-}
-
-.hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: radial-gradient(420px 280px at var(--mx) var(--my), rgba(214, 255, 74, 0.09), transparent 70%);
 }
 
 .hero-grid,
@@ -978,7 +963,6 @@ details.faq p { margin-top: 10px; color: var(--copy); max-width: 46rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .marquee-track { animation: none; }
   html { scroll-behavior: auto; }
   [data-cycle].is-cycling > .is-live::after { animation: none; transform: none; }
 }
