@@ -8,6 +8,90 @@
     window.setInterval(tick, 10000);
   }
 
+  fetch("media/latest-reel.json")
+    .then(function (response) { return response.ok ? response.json() : null; })
+    .then(function (data) {
+      if (!data || !data.permalink) return;
+      document.querySelectorAll("[data-latest-reel]").forEach(function (link) {
+        link.href = data.permalink;
+      });
+    })
+    .catch(function () {});
+
+  var reels = document.querySelector("[data-reels]");
+  if (reels) {
+    var row = reels.querySelector(".reel-row");
+    var clips = row.querySelectorAll("video");
+    var reelReduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var reelLocked = false;
+    function reelStep() {
+      var card = row.querySelector("figure");
+      var step = card ? card.getBoundingClientRect().width + 16 : 256;
+      var max = row.scrollWidth - row.clientWidth;
+      var left = row.scrollLeft >= max - 4 ? 0 : Math.min(max, row.scrollLeft + step);
+      row.scrollTo({ left: left, behavior: reelReduce ? "auto" : "smooth" });
+    }
+    function setSound(button, muted) {
+      button.classList.toggle("is-muted", muted);
+      button.setAttribute("aria-pressed", muted ? "false" : "true");
+      button.setAttribute("aria-label", muted ? "Unmute" : "Mute");
+    }
+    function muteClip(clip) {
+      clip.muted = true;
+      var button = clip.closest("figure").querySelector("[data-reel-sound]");
+      if (button) setSound(button, true);
+    }
+    function syncClip(clip, visible) {
+      if (reelReduce || !visible) {
+        clip.pause();
+        if (!visible) muteClip(clip);
+        return;
+      }
+      clip.play().catch(function () {});
+    }
+    reels.querySelectorAll("[data-reel-sound]").forEach(function (button) {
+      button.addEventListener("click", function () {
+        var clip = button.closest("figure").querySelector("video");
+        var turnOn = clip.muted;
+        clips.forEach(muteClip);
+        if (!turnOn) return;
+        clip.muted = false;
+        setSound(button, false);
+        clip.play().catch(function () {});
+      });
+    });
+    if ("IntersectionObserver" in window) {
+      var watcher = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          syncClip(entry.target, entry.isIntersecting && entry.intersectionRatio >= 0.55);
+        });
+      }, { threshold: [0, 0.55, 1] });
+      clips.forEach(function (clip) { watcher.observe(clip); });
+    }
+    reels.querySelector("[data-reel-prev]").addEventListener("click", function (event) {
+      if (event.isTrusted) reelLocked = true;
+      var card = row.querySelector("figure");
+      var step = card ? card.getBoundingClientRect().width + 16 : 256;
+      row.scrollTo({ left: Math.max(0, row.scrollLeft - step), behavior: "smooth" });
+    });
+    reels.querySelector("[data-reel-next]").addEventListener("click", function (event) {
+      if (event.isTrusted) reelLocked = true;
+      reelStep();
+    });
+    if (!reelReduce) {
+      var reelTimer = window.setInterval(function () {
+        if (!reelLocked) reelStep();
+      }, 7000);
+      reels.addEventListener("pointerenter", function () { window.clearInterval(reelTimer); reelTimer = null; });
+      reels.addEventListener("pointerleave", function () {
+        if (reelLocked || reelTimer) return;
+        reelTimer = window.setInterval(function () {
+          if (!reelLocked) reelStep();
+        }, 7000);
+      });
+    }
+  }
+
   var home = document.querySelector("[data-home]");
   if (!home) return;
 
@@ -42,6 +126,23 @@
 
   var hero = document.querySelector(".hero");
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var reel = document.querySelector(".hero-portrait video");
+  var sound = document.querySelector("[data-sound]");
+  if (reel) {
+    if (reduce) {
+      reel.removeAttribute("autoplay");
+      reel.pause();
+    }
+    if (sound) {
+      sound.addEventListener("click", function () {
+        reel.muted = !reel.muted;
+        if (reel.paused) reel.play();
+        sound.classList.toggle("is-muted", reel.muted);
+        sound.setAttribute("aria-pressed", reel.muted ? "false" : "true");
+        sound.setAttribute("aria-label", reel.muted ? "Unmute" : "Mute");
+      });
+    }
+  }
   if (hero && !reduce) {
     hero.addEventListener("pointermove", function (event) {
       var rect = hero.getBoundingClientRect();
