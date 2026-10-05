@@ -41,47 +41,35 @@
       var button = clip.closest("figure").querySelector("[data-reel-sound]");
       if (button) setSound(button, true);
     }
-    function syncClip(clip, visible) {
-      if (reelReduce || !visible) {
-        clip.pause();
-        if (!visible) muteClip(clip);
-        return;
-      }
+    function startClip(clip) {
+      if (reelReduce || clip.dataset.held === "1") return;
       clip.play().catch(function () {});
     }
     reels.querySelectorAll("[data-reel-sound]").forEach(function (button) {
-      button.addEventListener("click", function () {
+      button.addEventListener("click", function (event) {
+        event.stopPropagation();
         var clip = button.closest("figure").querySelector("video");
         var turnOn = clip.muted;
         clips.forEach(muteClip);
         if (!turnOn) return;
+        clip.dataset.held = "0";
         clip.muted = false;
         setSound(button, false);
         clip.play().catch(function () {});
       });
     });
-    function playOnlyVisible() {
-      var best = null;
-      var bestRatio = 0;
-      clips.forEach(function (clip) {
-        var rect = clip.getBoundingClientRect();
-        var shown = Math.max(0, Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0));
-        var ratio = rect.height ? shown / rect.height : 0;
-        if (ratio > bestRatio) {
-          bestRatio = ratio;
-          best = clip;
+    clips.forEach(function (clip) {
+      clip.addEventListener("click", function () {
+        if (clip.paused) {
+          clip.dataset.held = "0";
+          clip.play().catch(function () {});
+        } else {
+          clip.dataset.held = "1";
+          clip.pause();
         }
       });
-      clips.forEach(function (clip) {
-        syncClip(clip, clip === best && bestRatio >= 0.45);
-      });
-    }
-    if ("IntersectionObserver" in window) {
-      var watcher = new IntersectionObserver(playOnlyVisible, { threshold: [0, 0.45, 0.75, 1] });
-      clips.forEach(function (clip) { watcher.observe(clip); });
-    }
-    row.addEventListener("scroll", playOnlyVisible, { passive: true });
-    playOnlyVisible();
+      startClip(clip);
+    });
     reels.querySelector("[data-reel-prev]").addEventListener("click", function (event) {
       if (event.isTrusted) reelLocked = true;
       var card = row.querySelector("figure");
@@ -147,7 +135,8 @@
       reel.pause();
     }
     if (sound) {
-      sound.addEventListener("click", function () {
+      sound.addEventListener("click", function (event) {
+        event.stopPropagation();
         reel.muted = !reel.muted;
         if (reel.paused) reel.play();
         sound.classList.toggle("is-muted", reel.muted);
@@ -155,6 +144,10 @@
         sound.setAttribute("aria-label", reel.muted ? "Unmute" : "Mute");
       });
     }
+    reel.addEventListener("click", function () {
+      if (reel.paused) reel.play();
+      else reel.pause();
+    });
   }
   var stepMs = 4000;
   var stagger = 0;

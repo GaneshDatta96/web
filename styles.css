@@ -265,13 +265,15 @@ summary:focus-visible {
   align-items: center;
 }
 .reel-carousel > button {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border-radius: 50%;
   font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1;
   color: var(--muted);
   border: 1px solid var(--line);
-  padding: 10px 12px;
 }
 .reel-carousel > button:hover { color: var(--signal); border-color: var(--signal); }
 .reel-row {
@@ -290,13 +292,22 @@ summary:focus-visible {
   margin: 0;
   scroll-snap-align: start;
 }
-.reel-frame { position: relative; }
+.reel-frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: #080907;
+}
+.reel-frame video {
+  border: 0;
+  cursor: pointer;
+}
 .reel-row video {
   width: 100%;
   aspect-ratio: 9 / 16;
   object-fit: cover;
   display: block;
-  border: 1px solid var(--line);
   background: #080907;
 }
 .reel-sound {
