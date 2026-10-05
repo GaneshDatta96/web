@@ -1,6 +1,6 @@
 # Ganesh Datta
 
-Ganesh Datta installs sales infrastructure for coaches and founders so booking, follow-up, CRM, and content systems keep running without constant manual effort. He is the author of the Decision Cost Framework (v0.1).
+Ganesh Datta directs brand and creative at Celeris Creative. He designs identity, websites, and AI workflows. Builds include Vande Wellness, VandeCart, Vande University, Total Health Centers, and AyurDoc. He wrote the Decision Cost Framework, v0.1, 10 August 2026, code 100705.
 
 - Site: https://ganeshdatta.me/
 - Framework: https://ganeshdatta.me/decision-cost-framework.html
