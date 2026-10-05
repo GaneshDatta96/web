@@ -6,7 +6,7 @@ He is the author of the Decision Cost Framework, an original method (v0.1, decla
 
 The work is the operating layer, not a course. He guarantees the install, not close rate.
 
-- Source method: https://ganeshdatta.me/decision-cost-framework.html
-- Contact: https://ganeshdatta.me/contact.html
-- Privacy: https://ganeshdatta.me/privacy.html
+- Source method: https://ganeshdatta.me/decision-cost-framework/
+- Contact: https://ganeshdatta.me/contact/
+- Privacy: https://ganeshdatta.me/privacy/
 - Book: https://cal.com/ganesh-datta-bygktk/sales-throughput-session

@@ -1,3 +1,3 @@
 build=2026-10-05
 release=celeris-homepage
-summary=Tools page scores the ten Decision Cost questions out of 20 and counts hours off the week from numbers the visitor types. Homepage Tools menu opens that page. Revenue stays out of the math.
+summary=Page addresses drop the .html suffix. Each page lives at a plain path such as /tools/ and /about/. Old .html addresses redirect there.

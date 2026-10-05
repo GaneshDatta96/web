@@ -27,7 +27,7 @@ No single mega-multiplicative vanity score.
 Open: definition, the three-way split, free self-assessment, later case narratives.
 Closed: full probes, thresholds, recommendation kitchen.
 
-Source: https://ganeshdatta.me/decision-cost-framework.html
-How to run an audit: https://ganeshdatta.me/notes/how-to-run-a-decision-cost-audit.html
-What it is: https://ganeshdatta.me/notes/what-is-the-decision-cost-framework.html
+Source: https://ganeshdatta.me/decision-cost-framework/
+How to run an audit: https://ganeshdatta.me/notes/how-to-run-a-decision-cost-audit/
+What it is: https://ganeshdatta.me/notes/what-is-the-decision-cost-framework/
 Book: https://cal.com/ganesh-datta-bygktk/sales-throughput-session

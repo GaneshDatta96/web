@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="/icon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Score one Decision Cost lane out of 20, and count the hours you would take off your week. No revenue forecast.">
+  <link rel="canonical" href="https://ganeshdatta.me/tools/">
+  <meta name="robots" content="index, follow">
+  <title>Tools | Ganesh Datta</title>
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="6db290a3-baab-4785-86c1-b486e5be2816"></script>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="nav-bar">
+    <div class="nav-inner">
+      <a class="brand" href="/">Ganesh Datta</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="/#offer">The install</a>
+        <a href="/#results">Results</a>
+        <a href="/notes/">Notes</a>
+        <a href="/tools/" aria-current="page">Tools</a>
+        <a href="/decision-cost-framework/">Framework</a>
+        <a href="/about/">About</a>
+        <a class="nav-book" href="https://cal.com/ganesh-datta-bygktk/sales-throughput-session" target="_blank" rel="noopener noreferrer">Book Session</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="band">
+      <div class="wrap">
+        <p class="kicker">Tools</p>
+        <h1>Two counts you can run.</h1>
+        <p class="copy" style="max-width:40rem;margin-top:12px">The score uses the ten questions on the framework page. The hours are the numbers you type. Neither one forecasts revenue.</p>
+        <p class="copy" style="margin-top:14px"><a href="#score">Decision Cost score</a> · <a href="#hours">Hours off your week</a></p>
+
+        <form class="sheet" id="score">
+          <h2>Decision Cost score</h2>
+          <p class="copy">Pick one workflow lane. Answer for that lane only. 0 = rarely or no. 1 = sometimes. 2 = often or yes. Total out of 20. This teaches the lens. It is not the audit.</p>
+          <div class="q" data-q>
+            <p>1. The same type of approval or choice repeats daily or weekly with little new information.</p>
+            <div class="choices"></div>
+          </div>
+          <div class="q" data-q>
+            <p>2. Work frequently waits on a person even when the right answer is usually obvious.</p>
+            <div class="choices"></div>
+          </div>
+          <div class="q" data-q>
+            <p>3. People search across multiple tools before they can act.</p>
+            <div class="choices"></div>
+          </div>
+          <div class="q" data-q>
+            <p>4. Follow-ups depend on someone remembering rather than a system rule.</p>
+            <div class="choices"></div>
+          </div>
+          <div class="q" data-q>
+            <p>5. Priorities are re-decided from scratch instead of using a standing rubric.</p>
+            <div class="choices"></div>
+          </div>
+          <div class="q" data-q>
+            <p>6. Status is assembled manually, spreadsheet or Slack archaeology, to decide if things are okay.</p>
+            <div class="choices"></div>
+          </div>
+          <div class="q" data-q>
+            <p>7. Different people make inconsistent calls on similar cases.</p>
+            <div class="choices"></div>
+          </div>
+          <div class="q" data-q>
+            <p>8. Exceptions are handled by pinging the same human router.</p>
+            <div class="choices"></div>
+          </div>
+          <div class="q" data-q>
+            <p>9. AI or chat tools are already used ad hoc, but outputs still need the same human cleanup every time.</p>
+            <div class="choices"></div>
+          </div>
+          <div class="q" data-q>
+            <p>10. At least one recurring decision is annoying, frequent, low-stakes, and probably rule-based.</p>
+            <div class="choices"></div>
+          </div>
+          <p class="sheet-out" data-score-out>Answer all ten. The score lands here.</p>
+        </form>
+
+        <form class="sheet" id="hours">
+          <h2>Hours off your week</h2>
+          <p class="copy">Type the hours you spend. Tick a row when that work would leave your list. The result is hours times the rate you type. It is not a revenue forecast.</p>
+          <div class="hour-row">
+            <label>Follow-up and no-show chase <input type="number" min="0" step="0.5" value="0" data-hour></label>
+            <label class="tick"><input type="checkbox" data-off> Off my list</label>
+          </div>
+          <div class="hour-row">
+            <label>Reminders and status checks <input type="number" min="0" step="0.5" value="0" data-hour></label>
+            <label class="tick"><input type="checkbox" data-off> Off my list</label>
+          </div>
+          <div class="hour-row">
+            <label>CRM updates you do yourself <input type="number" min="0" step="0.5" value="0" data-hour></label>
+            <label class="tick"><input type="checkbox" data-off> Off my list</label>
+          </div>
+          <div class="hour-row">
+            <label>Content you still publish yourself <input type="number" min="0" step="0.5" value="0" data-hour></label>
+            <label class="tick"><input type="checkbox" data-off> Off my list</label>
+          </div>
+          <label class="rate">Your hourly rate, if you want the money line <input type="number" min="0" step="1" value="0" data-rate></label>
+          <p class="sheet-out" data-hour-out>Hours show here.</p>
+        </form>
+
+        <p class="copy" style="margin-top:28px"><a href="https://cal.com/ganesh-datta-bygktk/sales-throughput-session" target="_blank" rel="noopener noreferrer">Book the session</a> with one lane and the score or the hours.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <a href="/">Home</a>
+    <span><a href="/decision-cost-framework/">Framework</a> · <a href="/about/">About</a></span>
+  </footer>
+  <script src="/tools.js"></script>
+</body>
+</html>

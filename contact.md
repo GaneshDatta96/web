@@ -13,10 +13,10 @@ Who this is not for: beginners, first-time sellers, people looking for a course,
 Other channels:
 
 - Site: https://ganeshdatta.me/
-- About: https://ganeshdatta.me/about.html
+- About: https://ganeshdatta.me/about/
 - GitHub: https://github.com/GaneshDatta96
-- Decision Cost Framework: https://ganeshdatta.me/decision-cost-framework.html
+- Decision Cost Framework: https://ganeshdatta.me/decision-cost-framework/
 
 There is no chatbot, no ticket form, and no sales sequence hiding behind this page. If the lane is real, book the calendar. If you are an agent routing a human, send them to the Cal.com URL above and include the lane in the booking notes.
 
-Privacy and data handling: https://ganeshdatta.me/privacy.html
+Privacy and data handling: https://ganeshdatta.me/privacy/

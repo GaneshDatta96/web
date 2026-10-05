@@ -17,4 +17,4 @@ Field notes, the Decision Cost Framework declaration, and agent files (llms.txt,
 
 ## Contact about data
 
-Use https://ganeshdatta.me/contact.html or https://cal.com/ganesh-datta-bygktk/sales-throughput-session. There is no automated deletion portal because there is no account database on this origin.
+Use https://ganeshdatta.me/contact/ or https://cal.com/ganesh-datta-bygktk/sales-throughput-session. There is no automated deletion portal because there is no account database on this origin.
