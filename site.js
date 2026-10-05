@@ -60,14 +60,28 @@
         clip.play().catch(function () {});
       });
     });
+    function playOnlyVisible() {
+      var best = null;
+      var bestRatio = 0;
+      clips.forEach(function (clip) {
+        var rect = clip.getBoundingClientRect();
+        var shown = Math.max(0, Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0));
+        var ratio = rect.height ? shown / rect.height : 0;
+        if (ratio > bestRatio) {
+          bestRatio = ratio;
+          best = clip;
+        }
+      });
+      clips.forEach(function (clip) {
+        syncClip(clip, clip === best && bestRatio >= 0.45);
+      });
+    }
     if ("IntersectionObserver" in window) {
-      var watcher = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          syncClip(entry.target, entry.isIntersecting && entry.intersectionRatio >= 0.55);
-        });
-      }, { threshold: [0, 0.55, 1] });
+      var watcher = new IntersectionObserver(playOnlyVisible, { threshold: [0, 0.45, 0.75, 1] });
       clips.forEach(function (clip) { watcher.observe(clip); });
     }
+    row.addEventListener("scroll", playOnlyVisible, { passive: true });
+    playOnlyVisible();
     reels.querySelector("[data-reel-prev]").addEventListener("click", function (event) {
       if (event.isTrusted) reelLocked = true;
       var card = row.querySelector("figure");

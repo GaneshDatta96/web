@@ -97,11 +97,11 @@ summary:focus-visible {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  gap: 2px 18px;
+  gap: 4px 6px;
   margin-left: auto;
   font-family: var(--mono);
-  font-size: 12px;
-  letter-spacing: 0.06em;
+  font-size: 15px;
+  letter-spacing: 0.04em;
   line-height: 1;
   text-transform: uppercase;
   color: var(--muted);
@@ -110,7 +110,9 @@ summary:focus-visible {
 .nav-links a {
   display: inline-flex;
   align-items: center;
-  height: 32px;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 12px;
   white-space: nowrap;
 }
 
@@ -118,8 +120,8 @@ summary:focus-visible {
 .nav-links a[aria-current="page"] { color: var(--text); }
 
 .nav-book {
-  margin-left: 6px;
-  padding: 0 12px;
+  margin-left: 10px;
+  padding: 0 16px;
   border: 1px solid var(--signal);
   color: var(--signal) !important;
 }
@@ -196,10 +198,15 @@ summary:focus-visible {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
   gap: 48px;
-  align-items: center;
+  align-items: start;
 }
 
-.hero-portrait { margin: 0; }
+.hero-portrait {
+  margin: 0;
+  justify-self: end;
+  width: auto;
+  max-width: 100%;
+}
 .hero-portrait video,
 .portrait {
   width: 100%;
@@ -210,8 +217,11 @@ summary:focus-visible {
   border: 1px solid var(--line);
 }
 .hero-portrait video {
+  width: auto;
+  max-width: 100%;
+  height: min(520px, 62vh);
   aspect-ratio: 9 / 16;
-  max-height: 640px;
+  max-height: none;
   object-position: center;
   background: #080907;
 }
@@ -250,7 +260,7 @@ summary:focus-visible {
 
 .reel-carousel {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 48px minmax(0, 1fr) 48px;
   gap: 12px;
   align-items: center;
 }
@@ -266,14 +276,17 @@ summary:focus-visible {
 .reel-carousel > button:hover { color: var(--signal); border-color: var(--signal); }
 .reel-row {
   display: flex;
+  flex-flow: row nowrap;
   gap: 16px;
+  min-width: 0;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
 }
 .reel-row::-webkit-scrollbar { display: none; }
 .reel-row figure {
-  flex: 0 0 300px;
+  flex: 0 0 280px;
+  width: 280px;
   margin: 0;
   scroll-snap-align: start;
 }
@@ -288,20 +301,20 @@ summary:focus-visible {
 }
 .reel-sound {
   position: absolute;
-  right: 10px;
-  bottom: 10px;
-  z-index: 2;
-  width: 36px;
-  height: 36px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 3;
+  width: 48px;
+  height: 48px;
   display: grid;
   place-items: center;
   padding: 0;
-  color: #efe8dc;
-  background: rgba(8, 9, 7, 0.72);
-  border: 1px solid var(--line);
+  color: var(--signal);
+  background: rgba(8, 9, 7, 0.9);
+  border: 2px solid var(--signal);
   border-radius: 50%;
 }
-.reel-sound svg { width: 18px; height: 18px; display: block; }
+.reel-sound svg { width: 22px; height: 22px; display: block; }
 .reel-sound.is-muted .reel-sound-wave { display: none; }
 .reel-sound:not(.is-muted) .reel-sound-slash { display: none; }
 .reel-row figcaption {
@@ -942,24 +955,28 @@ details.faq p { margin-top: 10px; color: var(--copy); max-width: 46rem; }
   .tool { grid-template-columns: 56px 1fr; }
   .tool small { display: none; }
   .profile-cards { grid-template-columns: 1fr; }
-  .nav-inner { flex-wrap: wrap; align-items: center; row-gap: 8px; }
-  .brand { width: 100%; }
-  .nav-links { margin-left: 0; width: auto; max-width: 100%; }
+  .nav-inner { flex-wrap: wrap; align-items: center; row-gap: 10px; }
+  .brand { width: auto; }
+  .nav-links { margin-left: auto; width: auto; max-width: 100%; flex-wrap: wrap; justify-content: flex-end; }
   .cta-row { flex-direction: column; align-items: stretch; }
   .cta-primary, .cta-secondary { justify-content: center; }
-  .reel-row figure { flex-basis: 68vw; }
+  .hero-grid { grid-template-columns: 1fr 0.8fr; align-items: start; }
+  .hero-portrait { width: min(100%, 320px); }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 720px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-portrait { justify-self: start; }
+  .nav-inner { align-items: stretch; }
+  .brand { width: 100%; }
   .nav-links {
-    display: grid;
-    grid-template-columns: repeat(3, max-content);
-    align-items: center;
-    justify-content: start;
-    column-gap: 18px;
-    row-gap: 0;
+    margin-left: 0;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 8px;
   }
-  .nav-book { margin-left: 0; justify-self: start; }
+  .nav-links a { flex: 1 1 calc(50% - 8px); }
+  .nav-book { margin-left: 0; flex-basis: 100%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
