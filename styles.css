@@ -737,6 +737,52 @@ summary:focus-visible {
 .tool-code { color: var(--signal); }
 .tool small { color: var(--dim); }
 
+.sheet { border-top: 1px solid var(--line); margin-top: 36px; padding-top: 28px; }
+.sheet h2 {
+  font-family: var(--serif);
+  font-weight: 520;
+  letter-spacing: -0.03em;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  margin: 8px 0 12px;
+}
+.q { margin: 18px 0 0; padding-top: 14px; border-top: 1px solid var(--line); }
+.q p { margin-bottom: 10px; }
+.choices { display: flex; flex-wrap: wrap; gap: 8px; }
+.choices label, .tick {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.hour-row, .rate {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-top: 12px;
+}
+.hour-row label:first-child, .rate { gap: 10px; }
+input[type="number"] {
+  width: 7rem;
+  min-height: 44px;
+  padding: 0 12px;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  font: inherit;
+}
+.sheet-out {
+  margin-top: 18px;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--panel-2);
+}
+
 .split {
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;

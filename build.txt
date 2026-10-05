@@ -1,3 +1,3 @@
 build=2026-10-05
 release=celeris-homepage
-summary=Homepage rebuilt around the Celeris practice: menu enlarged and aligned, hero lined up with the reel and a visible unmute, about carousel plays every reel with rounded frames and click-to-pause, favicon shipped, copy names AyurDoc as an AI clinician decision support system and THC CDSS plainly, marquee and hero pointer effect removed
+summary=Tools page scores the ten Decision Cost questions out of 20 and counts hours off the week from numbers the visitor types. Homepage Tools menu opens that page. Revenue stays out of the math.
