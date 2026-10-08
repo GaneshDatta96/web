@@ -1,8 +1,8 @@
 name: Pull latest reel
 
+# Instagram serves runners a login wall, so the schedule lives on Ganesh's PC
+# (Task Scheduler: GDWeb-PullLatestReel). Manual runs stay available.
 on:
-  schedule:
-    - cron: "17 */6 * * *"
   workflow_dispatch:
 
 permissions:
