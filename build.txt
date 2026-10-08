@@ -1,3 +1,3 @@
 build=2026-10-08
-release=signature-full-name
-summary=Swap the GD monogram for the full "Ganesh Datta" signature (signature.svg, traced from the supplied logo). Desktop: in the gap to the lower left of the reel, its tail bleeding slightly onto the player. Mobile: inside the reel's lower left.
+release=signature-tilt
+summary=Signature tilted 8 degrees, rising toward the reel. Swap the GD monogram for the full "Ganesh Datta" signature (signature.svg, traced from the supplied logo). Desktop: in the gap to the lower left of the reel, its tail bleeding slightly onto the player. Mobile: inside the reel's lower left.
