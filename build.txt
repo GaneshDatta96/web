@@ -1,3 +1,3 @@
-build=2026-10-05
-release=celeris-homepage
-summary=Page addresses drop the .html suffix. Each page lives at a plain path such as /tools/ and /about/. Old .html addresses redirect there.
+build=2026-10-08
+release=signature-mark
+summary=Add the GD signature mark (signature.svg, white vector monogram) to the homepage hero, set in the gap to the lower left of the reel and tucked inside the frame on mobile.
