@@ -1,3 +1,3 @@
 build=2026-10-09
-release=portfolio-first-homepage
-summary=Homepage rebuilt from the audit: portfolio first (Selected Work with AyurDoc, THC CDSS, Vande case studies under /work/), Expertise, two-sentence framework intro, short first-person About, broad contact CTA. Sales install pitch moved to /sales-infrastructure/ with acceptance criteria instead of the guarantee and no invented numbers. Nav standardized to Work, Expertise, Writing, About, Contact across all pages. About rewritten in first person, contact broadened, repeated note ledes removed. Performance: WebP portrait/work images, non-blocking fonts, absolute reel fetch path. Lighthouse local: 94/100/100/100.
+release=free-tools-restored
+summary=Tools back in the main nav on every page (Work, Expertise, Writing, Tools, About, Contact). Homepage "How I think" section now lists the free tools: Decision Cost score, hours calculator, free teardown, and the framework. Umami events on each tool tile.
