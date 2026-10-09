@@ -1,17 +1,24 @@
 # Ganesh Datta
 
-Ganesh Datta directs brand and creative at Celeris Creative. AyurDoc is an AI CDSS, an artificial intelligence clinician decision support system for Ayurveda doctors. THC CDSS is the clinician decision support system for Total Health Centers. Vande Wellness, VandeCart, and Vande University are the brand and the sites. He wrote the Decision Cost Framework, v0.1, 10 August 2026, code 100705.
+I build the brand and the system under it. I lead brand and creative at Celeris, and work across websites, marketing systems and AI-powered software.
 
-- Site: https://ganeshdatta.me/
-- Framework: https://ganeshdatta.me/decision-cost-framework/
+## Selected work
+
+- AyurDoc: clinical software for Ayurvedic practitioners. Role: product, positioning and the build. https://ganeshdatta.me/work/ayurdoc/
+- THC CDSS: clinical decision support for Total Health Centers. Role: product design and the build. https://ganeshdatta.me/work/thc-cdss/
+- Vande Wellness and VandeCart: brand, sites, booking and e-commerce for an Ayurveda clinic group. Role: marketing manager and marketing lead. https://ganeshdatta.me/work/vande/
+
+## What I work on
+
+- Brand and growth: brand direction, websites, campaigns and content.
+- Digital products: AI-powered applications and internal tools.
+- Operating systems: lead management, follow-up, handoffs, reporting and admin. Service page: https://ganeshdatta.me/sales-infrastructure/
+
+I developed the Decision Cost Framework to find recurring decisions and sort them into what software should handle, where AI can assist and where a human stays responsible: https://ganeshdatta.me/decision-cost-framework/
+
 - About: https://ganeshdatta.me/about/
 - Contact: https://ganeshdatta.me/contact/
-- Notes: https://ganeshdatta.me/notes/
-- Book: https://cal.com/ganesh-datta-bygktk/sales-throughput-session
-
-Most teams ask whether AI can do a task. The better question is what it costs to keep deciding that task by hand. Decision Cost is that tax. The engagement is a Decision Cost Audit: one lane, one measured change, a human lock before anything ships.
-
-Delivery is guaranteed. Revenue is not.
+- Writing: https://ganeshdatta.me/notes/
 
 ## When to use this
 

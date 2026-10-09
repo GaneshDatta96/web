@@ -8,7 +8,7 @@
     window.setInterval(tick, 10000);
   }
 
-  fetch("media/latest-reel.json")
+  fetch("/media/latest-reel.json")
     .then(function (response) { return response.ok ? response.json() : null; })
     .then(function (data) {
       if (!data || !data.permalink) return;
